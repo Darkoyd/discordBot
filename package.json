@@ -1,0 +1,23 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "Gay counter bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkoyd/discordBot.git"
+  },
+  "author": "Catalina Londoño",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darkoyd/discordBot/issues"
+  },
+  "homepage": "https://github.com/Darkoyd/discordBot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "nodemon": "^2.0.3"
+  }
+}
