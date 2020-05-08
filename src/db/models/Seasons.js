@@ -2,7 +2,7 @@ const Sequelize = require('sequelize')
 
 const errors = require('../../utils/validationErrors')
 
-class Gays extends Sequelize.Model {
+class Seasons extends Sequelize.Model {
 	static init(sequelize) {
 		return super.init({
 			name: {
@@ -15,11 +15,12 @@ class Gays extends Sequelize.Model {
 					}
 				}
 			},
-			gayBoyPoints: {
-				type: Sequelize.DECIMAL
+			active: {
+				type: Sequelize.BOOLEAN,
+				allowNull: false
 			},
-			playedMatches: {
-				type: Sequelize.INTEGER
+			bigGay: {
+				type: Sequelize.STRING
 			}
 		},
 		{
@@ -30,4 +31,4 @@ class Gays extends Sequelize.Model {
 	}
 }
 
-module.exports = Gays
+module.exports = Seasons
