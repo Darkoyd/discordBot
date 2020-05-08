@@ -16,7 +16,7 @@ class Gays extends Sequelize.Model {
                 }
             },
             gayBoyPoints: {
-                type: Sequelize.INTEGER
+                type: Sequelize.DECIMAL
             },
             playedMatches: {
                 type: Sequelize.INTEGER

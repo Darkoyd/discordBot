@@ -4,7 +4,8 @@
   "description": "Gay counter bot",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "nodemon --inspect src/index.js",
+    "hardRes": "node src/utils/resetTables.js && npm run test"
   },
   "repository": {
     "type": "git",
